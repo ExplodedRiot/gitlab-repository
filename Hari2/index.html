@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanbercode Hari ke-2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="sanbercode-logo.png" alt="Logo" class="logo">
+    <h2>Article Post</h2>
+
+    <h3 class="clickable" onclick="toggleDescription(0)">Lorem Post 1</h3>
+    <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    <div class="divider"></div>
+
+    <h3 class="clickable" onclick="toggleDescription(1)">Lorem Post 2</h3>
+    <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    <div class="divider"></div>
+
+    <a href="#" class="button">Lihat Data Peserta</a>
+</div>
+
+<script>
+    function toggleDescription(index) {
+        const descriptions = document.querySelectorAll('.description');
+        descriptions[index].style.display = descriptions[index].style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>
