@@ -1,39 +1,58 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
 .outer-container {
   display: flex;
-  justify-content: center;  
-  align-items: center; 
-  min-height: 100vh; 
-  background-color: #f4f4f4; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
 }
 
 .App {
-  text-align: left; 
-  background-color: #fff; 
-  padding: 20px; 
-  border-radius: 8px;  
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  width: 80%; 
-  max-width: 600px;  
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 110%;           
+  max-width: 1200px;    
+  margin-bottom: 10px;
 }
 
 h1 {
   font-size: 2em;
   color: #333;
-  margin: 0; 
+  margin: 0;
 }
 
 hr {
-  width: 100%;  
+  width: 100%;
   margin: 20px 0;
   border: 1px solid #ccc;
 }
 
-.container {
-  margin-left: 0;  
+.container p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0;
 }
 
-p {
-  font-size: 0.9em; 
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  font-size: 1em;
   color: #555;
-  margin-left: 0; 
+  margin-bottom: 10px;
 }

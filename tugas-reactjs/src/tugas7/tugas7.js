@@ -1,14 +1,22 @@
 import React from 'react';
-import Tugas6 from './tugas6/tugas6';
-import Tugas7 from './tugas7/tugas7';
+import './tugas6.css';
 
-const App = () => {
+const Tugas7 = () => {
   return (
-    <>
-      <Tugas6 />
-      <Tugas7 name="Muhammad Alif Ananda" batch="36" email="alifananda66@gmail.com" />
-    </>
+    <div className="outer-container">
+      <div className="App">
+        <h1>Data diri peserta kelas Reactjs</h1>
+        <hr />
+        <div className="container">
+          <ul>
+            <li><strong>Nama Lengkap:</strong> Muhammad Alif Ananda</li>
+            <li><strong>Email:</strong> alifananda66@gmail.com</li>
+            <li><strong>Batch Pelatihan:</strong> 36</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   );
 }
 
-export default App;
+export default Tugas7;
