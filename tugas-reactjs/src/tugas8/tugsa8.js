@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './App.css';
+import './tugas8.css';
 
-function App() {
+function Tugas8() {
   const [count, setCount] = useState(0);
   const [message, setMessage] = useState('');
 
   const handleClick = () => {
-    setCount(count + 1); 
+    setCount(count + 1);
   };
 
   React.useEffect(() => {
@@ -58,4 +58,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tugas8;
