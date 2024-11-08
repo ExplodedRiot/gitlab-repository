@@ -1,0 +1,72 @@
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.App {
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1200px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin: 0;
+  text-align: left;
+}
+
+hr {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #9b59b6;
+  color: white;
+}
+
+.edit-btn {
+  background-color: hsla(0, 0%, 40%, 0.778);
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:first-child {
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin-left: 10px;
+}
