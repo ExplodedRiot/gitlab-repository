@@ -14,7 +14,6 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        
         <Routes>
           <Route path="/" element={<Tugas6 />} />
           <Route path="/tugas7" element={<Tugas7 />} />

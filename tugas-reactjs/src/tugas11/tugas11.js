@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const App = () => {
+const Tugas11 = () => {
   const [students, setStudents] = useState([]);
   const [form, setForm] = useState({ name: '', course: '', grade: 0 });
 
@@ -142,4 +142,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Tugas11;

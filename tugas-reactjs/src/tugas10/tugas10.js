@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
 
-const App = () => {
+const Tugas10 = () => {
   const data = [
     { no: 1, nama: 'miu', mataKuliah: 'kagemani', nilai: 10, indexNilai: 'E' },
     { no: 2, nama: 'kahirin', mataKuliah: 'manjemen', nilai: 100, indexNilai: 'A' },
@@ -55,4 +54,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Tugas10;
