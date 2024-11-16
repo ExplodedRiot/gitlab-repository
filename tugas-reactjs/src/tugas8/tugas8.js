@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './tugas8.css';
 
-function Tugas8() {
+function tugas8() {
   const [count, setCount] = useState(0);
   const [message, setMessage] = useState('');
 
@@ -58,4 +58,7 @@ function Tugas8() {
   );
 }
 
-export default Tugas8;
+export default tugas8;
+
+
+

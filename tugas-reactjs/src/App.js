@@ -14,14 +14,16 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        
         <Routes>
-          <Route path="/" element={<Tugas6 />} />
-          <Route path="/tugas7" element={<Tugas7 />} />
-          <Route path="/tugas8" element={<Tugas8 />} />
-          <Route path="/tugas9" element={<Tugas9 />} />
-          <Route path="/tugas10" element={<Tugas10 />} />
-          <Route path="/tugas11" element={<Tugas11 />} />
+        <Route path="/" element={<Tugas6 />} />
+        <Route path="/tugas7" element={<Tugas7 />} />
+        <Route path="/tugas8" element={<Tugas8 />} />
+        <Route path="/tugas9" element={<Tugas9 />} />
+        <Route path="/tugas10" element={<Tugas10 />} />
+        <Route path="/tugas11" element={<Tugas11 />} />
         </Routes>
+
       </div>
     </Router>
   );

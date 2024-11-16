@@ -1,7 +1,7 @@
 import React from 'react';
 import './tugas9.css';
 
-const Tugas9 = () => {
+const tugas9 = () => {
   const data = [
     { no: 1, nama: 'John', mataKuliah: 'Algoritma', nilai: 80, indexNilai: 'A' },
     { no: 2, nama: 'Doe', mataKuliah: 'Matematika', nilai: 70, indexNilai: 'B' },
@@ -45,4 +45,4 @@ const Tugas9 = () => {
   );
 };
 
-export default Tugas9;
+export default tugas9;

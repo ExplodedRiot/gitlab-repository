@@ -1,7 +1,6 @@
 import React from 'react';
-import './tugas6.css';
 
-function App() {
+const tugas6 = () => {
   return (
     <div className="outer-container">
       <div className="App">
@@ -13,6 +12,7 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default tugas6;
+

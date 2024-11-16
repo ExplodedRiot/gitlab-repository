@@ -1,7 +1,7 @@
 import React from 'react';
 import './tugas6.css';
 
-const Tugas7 = () => {
+const tugas7 = () => {
   return (
     <div className="outer-container">
       <div className="App">
@@ -19,4 +19,6 @@ const Tugas7 = () => {
   );
 }
 
-export default Tugas7;
+export default tugas7;
+
+
