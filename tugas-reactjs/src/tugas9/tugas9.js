@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tugas9.css';
+import './tugas9.css';
 
 const Tugas9 = () => {
   const data = [
