@@ -49,8 +49,8 @@ const Tugas11 = () => {
       });
       if (response.ok) {
         const result = await response.json();
-        setStudents([...students, { ...result, id: students.length + 1, gradeIndex: getGradeIndex(result.score) }]);
-        setForm({ name: '', course: '', grade: 0 });
+        setStudents([...students, result]); 
+        setForm({ name: '', course: '', grade: 0 });  
       } else {
         console.error('Failed to create new student score');
       }

@@ -19,6 +19,8 @@ const Tugas10 = () => {
     return 'E'; 
   };
 
+  console.log('Tugas10 Component Rendered');  
+
   return (
     <div className="App">
       <table className="min-w-full bg-white border">

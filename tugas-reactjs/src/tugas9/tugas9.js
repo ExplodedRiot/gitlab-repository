@@ -1,13 +1,21 @@
 import React from 'react';
-import './tugas9.css';
+import './tugas9.css'; 
 
-const tugas9 = () => {
+const Tugas9 = () => {
   const data = [
     { no: 1, nama: 'John', mataKuliah: 'Algoritma', nilai: 80, indexNilai: 'A' },
     { no: 2, nama: 'Doe', mataKuliah: 'Matematika', nilai: 70, indexNilai: 'B' },
     { no: 3, nama: 'Frank', mataKuliah: 'Kalkulus', nilai: 60, indexNilai: 'C' },
     { no: 4, nama: 'Jason', mataKuliah: 'Basis data', nilai: 90, indexNilai: 'A' },
   ];
+
+  const handleEdit = (id) => {
+    console.log(`Editing student with ID: ${id}`);
+  };
+
+  const handleDelete = (id) => {
+    console.log(`Deleting student with ID: ${id}`);
+  };
 
   return (
     <div className="outer-container">
@@ -33,8 +41,18 @@ const tugas9 = () => {
                 <td>{item.nilai}</td>
                 <td>{item.indexNilai}</td>
                 <td>
-                  <button className="edit-btn">Edit</button>
-                  <button className="delete-btn">Delete</button>
+                  <button 
+                    className="edit-btn"
+                    onClick={() => handleEdit(item.no)}  
+                  >
+                    Edit
+                  </button>
+                  <button 
+                    className="delete-btn"
+                    onClick={() => handleDelete(item.no)}
+                  >
+                    Delete
+                  </button>
                 </td>
               </tr>
             ))}
@@ -45,4 +63,4 @@ const tugas9 = () => {
   );
 };
 
-export default tugas9;
+export default Tugas9;
